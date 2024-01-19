@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Tittle';
+            src: url(fonts/EVILDEAD.TTF) format('opentype');
+            font-weight: normal;
+            font-style: normal;
+            /*
+            Tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-set (Apple Advanced Typography)
+            - svg*/
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: 'Tittle', Times, serif;
+            font-size: 3em;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi inventore quidem facilis? Voluptas, provident impedit itaque odio eius at eum accusantium est voluptatem. Nostrum voluptate, ratione expedita fugit blanditiis beatae?</p>
+</body>
+</html>
