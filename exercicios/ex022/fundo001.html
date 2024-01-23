@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de imagem de fundo</title>
+    <style>
+
+        body{
+            background-image: url(imagens/wallpaper002.jpg);
+        }
+        div.quadrado{
+            display: inline-table;
+            /*No inicio era inline-box, mas só funciona inline-table quando há um parágrafo por algum motivo, se não fica sem alinhamento.*/
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color: lightgray;
+            width: 300px;
+            height: 300px;
+        }
+        div#q1{
+            background-color: red;
+        }
+        div#q2{
+            background-image: linear-gradient(to bottom, rgb(248, 59, 59), darkred);
+        }
+        div#q3{
+            background-image: url(imagens/pattern002.png);
+        }
+        li{
+            text-align: justify;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1">
+    <p>
+        Geral
+        <li><a href="">Hérois</a></li>
+        <li><a href="">Dragão</a></li>
+        <li><a href="">Forja</a></li>
+        <li><a href="">Amuleto</a></li>
+        <a href=""><li>Palavra do Dragão</li></a>
+        <li><a href="">Misericórdia dos Deuses</a></li>
+        <li><a href="">Lenda CoK</a></li>
+        <li><a href="">Pets Mágicos</a></li></p>
+    </div>
+    <div class="quadrado" id="q2">        <p>
+        Desenvolvimento
+            <li><a href="">Construções</a></li>
+            <li><a href="">Reformas</a></li>
+            <li><a href="">Eventos</a></li>
+            <li><a href="">Alianças</a></li>
+            <li><a href="">Ciências</a></li>
+            <li><a href="">Torre Sage</a></li></p>
+        </div>
+    <div class="quadrado" id="q3">
+        <p>
+         Combate
+            <li><a href="">Matriz</a></li>
+            <li><a href="">Atributo de Tropa</a></li>
+            <li><a href="">Livro de Tática</a></li>
+            <li><a href="">Tropas</a></li>
+            <li><a href="">Encantamentos</a></li>
+            <li><a href="">Civilizações</a></li>
+            <li><a href="">Casa Mágica</a></li></p>
+    </div>
+</body>
+</html>
