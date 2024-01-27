@@ -53,14 +53,17 @@ section{
     line-height: 2em;
     font-family: var(--fonte3);
 }
+section > p{
+    padding-bottom: 3em;
+}
 section.normal{
     display: block;
-
-
 }
 section.imagem{
-    background-size: 100%;
+    background-size: cover;
     color: white;
+    box-shadow: inset 6px 6px 17px 0px rgba(0, 0, 0, 0.562);
+    background-attachment: fixed;
 
 }
 section.imagem > p{
@@ -70,10 +73,12 @@ section.imagem > p{
 }
 section#img01{
     background-image: url(../imagens/background001.jpg);
+    background-position: right center;
  
 }
 section#img02{
     background-image: url(../imagens/background002.jpg);
+    background-position: center center;
 }
 footer{
     background-color: black;
