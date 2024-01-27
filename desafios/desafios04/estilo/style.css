@@ -1,3 +1,11 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -18,7 +26,7 @@ header{
     padding-top: 50px;
 }
 header > h1{
-font-family: Passion system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-family: var(--fonte1);
 font-variant: small-caps;
 font-size: bolder;
 padding-bottom: 2px;
@@ -28,7 +36,7 @@ font-size: 8vw;
 }
 header > p{
     padding-bottom: 20px;
-    font-family: Passion system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: var(--fonte1);
 }
 a{
     font-family: var(--fonte3);
@@ -51,12 +59,13 @@ section.normal{
 
 }
 section.imagem{
-    background-attachment: fixed;
     background-size: 100%;
     color: white;
+
 }
 section.imagem > p{
-    width: 500px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.377);
 }
 section#img01{
