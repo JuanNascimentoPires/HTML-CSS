@@ -1,3 +1,7 @@
 @charset "UTF-8";
 
-/*Configurações para Aparelho em deitado (Portrait)*/
+/*Configurações para Aparelho em deitado (Landspace)*/
+
+html, body{
+    background-color: red;
+}

@@ -1,3 +1,7 @@
 @charset "UTF-8";
 
-/*Configurações para Aparelho em pé (Landspace)*/
+/*Configurações para Aparelho em pé (Portrait)*/
+
+html, body{
+    background-color: blue;
+}
