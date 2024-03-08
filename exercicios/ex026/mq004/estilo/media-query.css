@@ -6,9 +6,9 @@
 ----------------------------
 Pequenas telas:
 Celular:
-Tablet:
-Desktop:
-Grandes telas:
+Tablet: 768px a 992px
+Desktop: 992px a 1200px
+Grandes telas: 1200px 
 */
 @media print {
     *{
